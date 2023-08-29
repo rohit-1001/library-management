@@ -14,4 +14,8 @@ router.get('/signup_login', middleware, (req, res) => {
     res.send("This is the login/signup page");
 })
 
+router.get('/contact', middleware, (req, res) => {
+    res.send("This is the contact page");
+})
+
 module.exports = router;
