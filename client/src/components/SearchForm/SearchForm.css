@@ -1,15 +1,42 @@
-.search-form{
-    width: 100%;
-    max-width: 680px;
+.search-form {
+  width: 100%;
+  max-width: 680px;
 }
-.search-form-elem{
-    padding: 1.4rem 2.8rem;
-    border-radius: 3.8rem;
+.search-form-elem {
+  padding: 1.4rem 2.8rem;
+  border-radius: 3.8rem;
 }
-.search-form-elem .form-control{
-    font-size: 2rem;
-    padding: 0.6rem;
+.search-form-elem .form-control {
+  font-size: 2rem;
+  padding: 0.6rem;
 }
-.search-form-elem .form-control::placeholder{
-    opacity: 0.9;
+.search-form-elem .form-control::placeholder {
+  opacity: 0.9;
+}
+
+/* Assuming you have a stylesheet named 'ButtonGroup.css' */
+.styled-radio {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  user-select: none;
+  display: inline-block;
+}
+
+.styled-radio input {
+  display: none;
+}
+
+.styled-radio.active {
+  background-color: white;
+  color: #333; /* Change this to the color you want on hover */
+}
+
+.styled-radio:hover {
+  background-color: white;
+  color: #333; /* Change this to the color you want on hover */
 }
