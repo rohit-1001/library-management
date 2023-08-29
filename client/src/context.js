@@ -43,8 +43,8 @@ const AppProvider = ({ children }) => {
             edition_count,
             first_publish_year,
             title,
-            // ratings_average,
-            // subject_facet
+            ratings_average,
+            subject_facet
           } = bookSingle;
 
           return {
@@ -54,8 +54,8 @@ const AppProvider = ({ children }) => {
             edition_count: edition_count,
             first_publish_year: first_publish_year,
             title: title,
-            // ratings_average : ratings_average,
-            // genre: subject_facet ? subject_facet.join(", ") : "No subjects found"
+            ratings_average : ratings_average,
+            genre: subject_facet ? subject_facet.join(", ") : "No subjects found"
           };
         });
 
