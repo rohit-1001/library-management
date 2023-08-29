@@ -10,4 +10,8 @@ router.get('/', middleware, (req, res) => {
     res.send("This is the homepage");
 })
 
+router.get('/signup_login', middleware, (req, res) => {
+    res.send("This is the login/signup page");
+})
+
 module.exports = router;
