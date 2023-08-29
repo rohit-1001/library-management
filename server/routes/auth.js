@@ -18,4 +18,8 @@ router.get('/contact', middleware, (req, res) => {
     res.send("This is the contact page");
 })
 
+router.get('/about', middleware, (req, res) => {
+    res.send("This is the about page");
+})
+
 module.exports = router;
