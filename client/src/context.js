@@ -54,7 +54,7 @@ const AppProvider = ({ children }) => {
             edition_count: edition_count,
             first_publish_year: first_publish_year,
             title: title,
-            ratings_average : ratings_average,
+            ratings_average: ratings_average ? ratings_average : "None",
             genre: subject_facet ? subject_facet.join(", ") : "No subjects found"
           };
         });

@@ -20,16 +20,6 @@ const Book = (book) => {
           <span>{book.author?.join(", ")}</span>
         </div>
 
-        {/* <div className='book-item-info-item author fs-15'>
-          <span className='text-capitalize fw-7'>Ratings: </span>
-          <span>{book.ratings_average}</span>
-        </div> */}
-
-        {/* <div className='book-item-info-item author fs-15'>
-          <span className='text-capitalize fw-7'>Genre: </span>
-          <span>{book.genre.join(", ")}</span>
-        </div> */}
-
         <div className='book-item-info-item edition-count fs-15'>
           <span className='text-capitalize fw-7'>Total Editions: </span>
           <span>{book.edition_count}</span>
@@ -41,7 +31,7 @@ const Book = (book) => {
         </div>
         <div className='book-item-info-item publish-year fs-15'>
           <span className='text-capitalize fw-7'>Rating: </span>
-          <span>{book.ratings_average!=null ? book.ratings_average : <span>None</span>}</span>
+          <span>{book.ratings_average}</span>
         </div>
         <div className='book-item-info-item publish-year fs-15'>
           <span className='text-capitalize fw-7'>Genre: </span>

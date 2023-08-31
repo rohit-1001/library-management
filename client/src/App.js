@@ -4,6 +4,8 @@ import Home from './pages/Home/Home';
 import About from "./pages/About/About";
 import BookList from "./components/BookList/BookList";
 import BookDetails from "./components/BookDetails/BookDetails";
+import Bestseller from './components/BestSeller/BestSeller.js';
+
 import {
     BrowserRouter, Routes, Route
   } from 'react-router-dom';

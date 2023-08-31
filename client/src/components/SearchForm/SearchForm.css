@@ -7,10 +7,12 @@
   border-radius: 3.8rem;
 }
 .search-form-elem .form-control {
+  color: black;
   font-size: 2rem;
   padding: 0.6rem;
 }
 .search-form-elem .form-control::placeholder {
+  color: black;
   opacity: 0.9;
 }
 
